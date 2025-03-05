@@ -10,3 +10,4 @@ document.addEventListener('DOMContentLoaded', () => {
   
   document.getElementById('message').textContent = "🐀: Fear my beans!";
   
+const appName = 'judgyface';
