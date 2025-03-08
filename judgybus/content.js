@@ -73,6 +73,13 @@ function getRandomJudgyfaceText() {
   return judgyfaceTexts[randomIndex];
 }
 
+// Function to summarize the page content
+function summarizePage() {
+    const title = document.title;
+    // Simple summary logic based on title
+    return `Summary for the page: ${title}`;
+}
+
 const judgyface = document.createElement('div');
 const initialText = getRandomJudgyfaceText();
 judgyface.textContent = initialText;

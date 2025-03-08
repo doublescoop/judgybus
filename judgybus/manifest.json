@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Tab judgyface",
     "version": "1.0",
-    "description": "A gremlin that trolls you for too many tabs.",
+    "description": "A judgy friend that trolls you for opening too many tabs.",
     "permissions": ["tabs", "notifications", "storage", "alarms"],
     "action": {
       "default_icon": {
